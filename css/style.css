@@ -1,0 +1,190 @@
+/* Google Fonts: Georama */
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georama', sans-serif;
+    
+}
+
+/* CSS Colors Variables */
+
+:root{
+       --navbar-links-color: #34495e; 
+       --navbar-links-hover: rgb(0, 0, 0);
+       --main-background-color: #f1f8fc;
+       --btn-background: #6937ff;
+       --btn-background-hover: #ff95d7;
+
+}
+
+img{
+    width: 100%;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+
+
+.big-wrapper{
+    padding: 3rem 0 0rem;
+    width: 100%;
+    min-height: 100vh;
+    /* overflow: hidden; */
+    background-color: var(--main-background-color);
+    
+}
+
+
+
+
+.logo img{
+    width: 140px;
+}
+
+
+.container{
+    position: relative;
+    max-width: 70rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+    z-index: 10;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+
+.links ul a{
+    color: var(--navbar-links-color);
+    margin-left: 2rem;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+
+.links ul a:hover{
+    color: var(--navbar-links-hover);
+}
+
+
+
+
+
+.showcase-area .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70rem;
+    height: 85vh;
+}
+
+
+.big-title{
+    font-size: 1.8rem;
+    color: #000;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.text{
+    color: #000;
+    font-size: 1.2rem;
+    margin: 1.4rem 0 2.5rem;
+    max-width: 400px;
+}
+
+
+.home{
+    width: 350px;
+}
+
+
+
+.btn {
+    padding: 0.7rem 4rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    background-color: var(--btn-background);
+    color: var(--container-button);
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: var(--btn-background-hover);
+    color: var(--navbar-links-hover);
+}
+
+
+
+
+
+
+@media screen and (max-width: 957px) {
+    .logo img{
+        width: 120px;
+    }
+
+    header .container{
+        flex-direction: column;
+    }
+    
+    .links ul{
+        /* border: 2px solid black; */
+        margin-top: 10px;
+    }
+
+    .big-title{
+        font-size: 1.3rem;
+        color: #000;
+        text-transform: capitalize;
+        line-height: 1.4;
+    }
+    
+    .text{
+        max-width: 350px;
+    }
+
+    .home{
+        width: 300px;
+    }
+
+    .btn {
+        padding: 0.5rem 3rem;
+        font-size: 1.2rem;
+    }    
+}
+
+
+@media screen and (max-width: 838px) {
+    
+
+/* I will code It tommorow */
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="482" viewBox="0 0 380 482">
+<g fill="none" fill-rule="evenodd">
+<path fill="#FF95D7" d="M0 342h200c0 55.228-44.772 100-100 100S0 397.228 0 342z"/>
+<g transform="matrix(1 0 0 -1 200 132)">
+<circle cx="7.5" cy="7.5" r="7.5" fill="#FF6E6E"/>
+<circle cx="7.5" cy="85.5" r="7.5" fill="#FFA1A1"/>
+<circle cx="7.5" cy="46.5" r="7.5" fill="#FF6E6E"/>
+<circle cx="7.5" cy="124.5" r="7.5" fill="#FDE7E9"/>
+<circle cx="46.5" cy="7.5" r="7.5" fill="#FF6E6E"/>
+<circle cx="46.5" cy="85.5" r="7.5" fill="#FDE7E9"/>
+<circle cx="46.5" cy="46.5" r="7.5" fill="#FFA1A1"/>
+<circle cx="85.5" cy="7.5" r="7.5" fill="#FFA1A1"/>
+<circle cx="85.5" cy="46.5" r="7.5" fill="#FDE7E9"/>
+<circle cx="124.5" cy="7.5" r="7.5" fill="#FDE7E9"/>
+</g>
+<path fill="#B2A0FF" d="M272 162h36v180h-36z"/>
+<path fill="#E1DBFF" d="M344 162h36v180h-36z"/>
+<path fill="#8A6FFF" d="M200 162h36v180h-36z"/>
+<path stroke="#FF95D7" d="M272 342v104h-36V342M344 342v80h-36v-80"/>
+<g transform="translate(201 410)">
+<circle cx="36" cy="36" r="36" fill="#FFA1A1"/>
+<circle cx="36" cy="36" r="24" fill="#FAFAFF"/>
+</g>
+<circle cx="15" cy="15" r="15" fill="#FDE7E9" transform="translate(293 407)"/>
+<path stroke="#FF95D7" d="M144.5 163.418L1.045 341.5H144.5V163.418z"/>
+<path fill="#CCF2FF" d="M79 162h66V80z"/>
+<path fill="#66D4FF" d="M13 244h66v-82z"/>
+<circle cx="100" cy="345" r="45" fill="#FFEBF7"/>
+</g>
+</svg>
